@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    position: sticky;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 5px solid chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffab40;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+button {
+    background-color: chocolate;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Judul {
+    color: black;
+    border-bottom: 3px solid black;
+    text-align: center;
+    padding : 10px;
+}
+
+.container2 {
+    background-color: #ffab40;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.gambar {
+    position: relative;
+    margin-right: 20px;
+}
+
+.GambarAyam {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.About {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+p {
+    width: 700px;
+    text-align: center;
+    overflow: hidden;
+}
